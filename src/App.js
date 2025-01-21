@@ -1,5 +1,6 @@
 import Navbar from "./Pages/Navbar/nav-bar";
 import About from "./Pages/About/about";
+import "./style.css";
 
 function App() {
   return (

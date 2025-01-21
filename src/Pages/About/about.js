@@ -1,19 +1,16 @@
 import React from 'react'
-import image from "../../assets/about_image.jpg";
+import image from "../../assets/about_image_final.png";
+import "./about.css";
 
 const About = () => {
     return (
-      <section>
+      <section id="aboutSection">
         <div className="aboutDescription">
-          <span className="aboutWord">
-            Hello,
-            <span className="aboutText">
-              I'm
-              <span className="aboutName">
-                Xongotelo Baloyi
-                <br/>FullStack Developer
-              </span>
-            </span>
+          <span className="aboutWord">Hello,</span>
+          <span className="aboutText">I'm Xongotelo Baloyi</span>
+          <span className="aboutTitle">A Junior FullStack Developer</span>
+          <span className="aboutMessage">
+            Passionate about building engaging web experiences with a blend of creativity and code.
           </span>
         </div>
         <img src={image} alt="profile photo" className="aboutImage"></img>

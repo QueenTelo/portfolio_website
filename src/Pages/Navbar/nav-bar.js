@@ -1,6 +1,7 @@
 import React from 'react'
 import './nav-bar.css';
 import logo from '../../assets/website_logo.png'
+import icon from "../../assets/icons8-contact-us-30.png";
 import {Link} from 'react-scroll'
 
 const Navbar = () => {
@@ -13,9 +14,6 @@ const Navbar = () => {
           <Link className="nav-barItem">Projects</Link>
           <Link className="nav-barItem">Contact Me</Link>
         </div>
-        <button className="desktopButtonContact">
-          <img src="" alt="Button" className="desktopButtonImage" /> Contact Me{" "}
-        </button>
       </nav>
     );
 }
