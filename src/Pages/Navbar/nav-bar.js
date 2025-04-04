@@ -1,8 +1,7 @@
 import React from 'react'
 import './nav-bar.css';
 import logo from '../../assets/website_logo.png'
-import icon from "../../assets/icons8-contact-us-30.png";
-import {Link} from 'react-scroll'
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
     return (
@@ -12,7 +11,7 @@ const Navbar = () => {
           <Link className="nav-barItem">About</Link>
           <Link className="nav-barItem">Experience</Link>
           <Link className="nav-barItem">Projects</Link>
-          <Link className="nav-barItem">Contact Me</Link>
+          <Link className="nav-barItem">Contact</Link>
         </div>
       </nav>
     );
